@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div style="height:max-content; background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('https://previews.123rf.com/images/lucadp/lucadp1111/lucadp111100148/11505663-the-word-project-placed-over-a-plan-project-3d-render-.jpg?fj=1');" class="text-center">
+    <div class="text-center flex-fill" style="background-image: url('https://previews.123rf.com/images/lucadp/lucadp1111/lucadp111100148/11505663-the-word-project-placed-over-a-plan-project-3d-render-.jpg?fj=1'); background-size:contain">
+        <h1 class="display-4"> <strong style="color:orange">Welcome</strong> </h1>
+        <div class="content">
+            <h1> <strong style="color:orange">START Projects</strong> </h1>
+            <p style="font-size:200%">
+                <strong style="color:orange">CLICK HERE AND START Working On Your Projects.</strong> 
+            </p>
+            <form asp-controller="Projects" asp-action="Index">
+                <input type="submit" style="margin-bottom:500px" class="btn btn-success" value="Start Doing Projects" />
+
+            </form>
+
+        </div>
+    </div>
+</div>
